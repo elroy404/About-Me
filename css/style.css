@@ -1,0 +1,78 @@
+.main-header {
+  background-image:     url('https://geralleblog.files.wordpress.com/2016/05/geralle-stock-photo-kazuend.jpg');
+  background-size: cover;
+  padding: .1em;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0px 3px 9px 0px black;
+}
+
+.name, .greeting {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+
+}
+
+.greeting{
+  margin-top: 2em;
+}
+.name{
+  margin-top: -.5em;
+  text-transform: uppercase;
+  letter-spacing: .03em;  
+}
+
+.highlight{
+  color: #3F51B5;
+}
+
+/* section {
+  text-align: left;
+  margin: 0 25%;
+} */
+
+.introduction, .im-from, .about-me {
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 1em;
+  max-width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paragraph-header{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.foo-ter {
+  margin: 2em;
+  text-align: center;
+}
+
+.social-channels {
+  padding: 0;
+}
+
+.social-channels > li {
+  display: inline;
+  font-weight: bold;
+  padding-right: .5em;
+}
+
+a:link {
+  color: #283593;
+}
+
+a:visited{
+  color: #283593;
+}
+
+a:hover{
+  color: #9FA8DA;
+}
+
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+}
